@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="nojs" lang="en">
+  <head>
+    <title>ISUD</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="screen" href="css/reset.css"/>
+    <link rel="stylesheet" media="screen" href="css/screen.css"/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/site.js"></script>
+    <script src="js/map.js"></script>
+  </head>
+  <body>
+  <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT US</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>ANNOUNCEMENTS AND EVENTS</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT US </a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT US</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()"> ANNOUNCEMENTS AND EVENTS</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT US </a>
+        <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+      </div>
+    </div>
+
+      <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle">
+          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> Society for Universal Dialogue <span class="w3-hide-small"></span></span>
+        </div>
+    </div>
+
+
+      <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center"> ISUD XII World Congress 
+          Pontifical Catholic University of PeruLima, Peru July 10-15, 2018
+        </h3>
+        <p class="w3-center"><h4>ISUD</h4></p>
+        <p>
+          <b>Dear participants of the ISUD Congress:</b> You can now find the information regarding
+           HOTELS and other relevant information for your plans to travel to Lima in this page.
+        </p>
+        <p>
+          You will also find instructions for the payment of the registration and 
+          membership fees for you to be able to take care of that before coming to Lima. Should you have any questions at this point, 
+          please contact us at
+        </p>
+        <p>
+          isud2018@gmail.com
+        </p>
+        <p>
+          We will respond to your queries immediately.
+          <i>The OrganizingCommittee ISUD XII WORLD CONGRESS Lima 2018</i>
+        </p>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p>
+            <b> <i class="fa fa-user w3-margin-right" >
+            </i> <a href="http://congreso.pucp.edu.pe/isud/">SIGN HUP HERE</a></b>
+          </p>
+          <img src="images/222.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+        </div>
+
+          <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p><h3>Congress Details </h3></p>
+          <p>
+            July 10-15, 2018
+            Lima, Peru
+          </p>
+          <p>
+            Find details about the XII 2018 World Congress.All you need to know about topics, registration, deadlines and travel.
+            Email us with any questions to: isud2018@gmail.com.
+          </p>
+          <p>
+            Journal
+            December 2016
+            Read current articles from the ISUD companion Journal Dialogue and Universalism!
+          </p>
+          <p>
+            <a href="http://dialogueanduniversalism.eu"> Read More
+            </a>
+          </p>
+          <p>
+            <a href="https://www.youtube.com/embed/sF5n78x9LgE"> Watch Our Vide </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+      <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="images/1111.jpg">
+        <p id="caption" class="w3-opacity w3-large"></p>
+      </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+         <span class="w3-xxlarge w3-text-white w3-wide"> CONTACT US </span>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center">Thank you for your interest in ISUD.</h3>
+      <p class="w3-center"><em>To contact us please reach us via:</em></p>
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <img src="images/333.jpg" class="w3-image w3-round">
+        </div>
+
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Warsaw, Poland<br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right">
+            </i> isud2018@gmail.com<br>
+          </div>
+
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-right w3-section" type="submit">
+              <i class="fa fa-paper-plane"> </i> SEND MESSAGE
+            </button>
+          </form>
+          </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+        </div>
+    </footer>
+  </body>
+</html>
+
